@@ -6,7 +6,7 @@ spec:
   containers:
   - name: flask
     image: mingchak/flaskapp:latest
-     ports:
+ ports:
     - containerPort: 5000
   imagePullSecrets:
   - name: myregistrykey

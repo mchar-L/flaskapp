@@ -4,7 +4,7 @@ kind: Service
 
 metadata:
 
-  name: my-nginx
+  name: flasksvc
 
 spec:
 
@@ -18,4 +18,4 @@ spec:
 
   selector: 
 
-    app: nginx 
+    app: flask 
